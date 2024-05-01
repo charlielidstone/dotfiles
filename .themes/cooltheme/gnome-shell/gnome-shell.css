@@ -1,0 +1,40 @@
+#panel {
+  background: rgba(17, 17, 27, 0.85);
+  border: 2px solid #b4befe;
+  margin: 4px;
+  border-radius: 30px;
+  color: #cdd6f4;
+}
+
+#panel * {
+  color: #cdd6f4;
+}
+
+#dashtodockContainer {
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+#dashtodockContainer.bottom #dash {
+  margin-bottom: 3px;
+}
+
+.dash-background {
+  background-color: rgba(17, 17, 27, 0.85);/*was .95 transparency*/
+  border-radius: 20px;
+  padding: 8px 5px;
+  border: 2px solid #b4befe;
+}
+
+.dash-label {
+  color: #cdd6f4;
+}
+
+.overview-icon:hover {
+  background-color: red;
+}
+
+
+.app-grid-running-dot {
+  background-color: #b4befe;
+}
