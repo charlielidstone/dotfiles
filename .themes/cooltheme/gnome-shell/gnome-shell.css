@@ -34,7 +34,11 @@
   background-color: red;
 }
 
-
 .app-grid-running-dot {
   background-color: #b4befe;
 }
+
+.user-icon {
+  border: 2px solid red;
+}
+
