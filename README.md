@@ -19,3 +19,6 @@ After cloning into the root directory, create a symbolic link with the `ln` comm
 
 I use [NvChad](https://nvchad.com/) and most of the plugins that come with it.
 For some reason, the file structure for the configs can vary.
+
+## Other cool things
+- [tty-clock](https://manpages.ubuntu.com/manpages/trusty/man1/tty-clock.1.html)
