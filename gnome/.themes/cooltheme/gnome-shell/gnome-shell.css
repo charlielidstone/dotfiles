@@ -42,6 +42,12 @@
   border: 2px solid red;
 }
 
+.select-area-rubberband {
+  background-color: rgba(212, 190, 152, 0.3);
+  border: 1px solid #b4befe;
+  border-radius: 6px;
+}
+
 .quick-settings {
   border: 2px solid #b4befe;
   background-color: #11111b;
