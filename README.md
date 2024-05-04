@@ -12,4 +12,10 @@ After cloning into the root directory, create a symbolic link with the `ln` comm
 
 `ln -s ~/dotfiles/nvim /path/to/configs/nvim` 
 
-> **Note:** The correct location for the nvim config directory will vary. 
+> **Note:** The correct location for the nvim config directory will vary.
+
+
+## Neovim
+
+I use [NvChad](https://nvchad.com/) and most of the plugins that come with it.
+For some reason, the file structure for the configs can vary.
