@@ -64,3 +64,25 @@
 .quick-menu-toggle .quick-toggle-arrow:checked {
   background-color: #b4befe;
 }
+
+.quick-setting-system-item {
+  background: red;
+}
+
+#dashtodockContainer .show-apps .overview-icon,
+#dashtodockContainer .app-well-app .overview-icon {
+  border: 1px solid transparent;
+  color: #b4befe;
+  border-radius: 10px;
+}
+
+#dashtodockContainer .show-apps:hover .overview-icon,
+#dashtodockContainer .show-apps:focus .overview-icon,
+#dashtodockContainer .show-apps:selected .overview-icon,
+#dashtodockContainer .app-well-app:hover .overview-icon,
+#dashtodockContainer .app-well-app:focus .overview-icon,
+#dashtodockContainer .app-well-app:selected .overview-icon {
+  background-color: rgba(49, 50, 68, 0.85);
+  borrder-top: 1px solid rgba(49, 50, 68, 1);
+  border-radius: 10px;
+}
