@@ -1,8 +1,10 @@
 *
-!/nvim
-!/gnome
-!/hypr
-!/kitty
+**
+*/**
+!/nvim/
+!/gnome/
+!/hypr/
+!/kitty/
 !TODO
 !README
 !LICENSE
