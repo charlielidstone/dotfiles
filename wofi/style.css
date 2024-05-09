@@ -1,0 +1,52 @@
+/*
+
+██╗    ██╗ ██████╗ ███████╗██╗
+██║    ██║██╔═══██╗██╔════╝██║
+██║ █╗ ██║██║   ██║█████╗  ██║
+██║███╗██║██║   ██║██╔══╝  ██║
+╚███╔███╔╝╚██████╔╝██║     ██║
+ ╚══╝╚══╝  ╚═════╝ ╚═╝     ╚═╝
+
+Wofi config by Charlie Lidstone
+
+*/
+
+window {
+    padding: 50px;
+    background-color: #1e1e2e;
+    font-family: 'FiraCode Nerd Font', sans-serif;
+    font-size: 15px;
+}
+
+#input {
+    margin: 20px 15px;
+    padding: 10px 20px;
+    background-color: #11111b;
+    border: none;
+    color: #cdd6f4;
+}
+
+#input:focus {
+    box-shadow: none;
+}
+
+#inner-box {
+    margin: 0 15px;
+}
+
+#img {
+    margin: 10px;
+}
+
+#entry:selected {
+    background-color: #a6e3a1;
+    border-radius: 5px;
+}
+
+#text {
+    color: #cdd6f4;
+}
+
+#text:selected {
+    color: #1e1e2e;
+}
