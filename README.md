@@ -8,4 +8,5 @@ I'm new to Arch and Hyperland and still figuring things out.
 **Font:** JetBrainsMono Nerd Font\
 **File Manager:** Nautilus\
 **Lock Screen:** Hyprlock\
-**Editor:** Neovim
+**Editor:** Neovim\
+**Fetch:** Nitch
