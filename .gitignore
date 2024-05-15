@@ -9,3 +9,5 @@
 !gnome/*
 !waybar
 !waybar/*
+!wofi
+!wofi/*

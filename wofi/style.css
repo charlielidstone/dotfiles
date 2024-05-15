@@ -11,9 +11,11 @@ Wofi config by Charlie Lidstone
 
 */
 
+@import "mocha.css";
+
 window {
     padding: 50px;
-    background-color: #1e1e2e;
+    background-color: @mantle;
     font-family: 'FiraCode Nerd Font', sans-serif;
     font-size: 15px;
 }
