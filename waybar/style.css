@@ -1,81 +1,202 @@
+@import "mocha.css";
+
 * {
-font-family: "JetBrains Mono";
-font-weight: bold;
-min-height: 0;
-font-size: 102%;
-font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
-padding: 1px;
+  padding: 0;
+  margin: 0;
+  font-family: "Overpass", "JetBrains Mono Nerd Font";
+  font-size: 12px;
+}
+
+/* ------ Set a Uniform Border Radius ------ */
+.modules-left, .modules-center, .modules-right, #cpu, #memory, #temperature, #pulseaudio, #backlight, #custom-spotify, #custom-icon, #custom-updates, #network, #battery, #tray, #idle_inhibitor, #custom-power, #custom-notification {
+  border-radius: 10px;
+}
+
+.modules-left, .modules-center, .modules-right {
+  border: 2px solid @lavender; 
+}
+
+/* ------ Modules Left ------ */
+.modules-left {
+  background-color: @base;
+  margin: 5px;
+  margin-bottom: 0;
+  padding-right: 5px;
+  padding-left: 13px;
+}
+
+/* ------ Modules Center ------ */
+.modules-center {
+  background-color: @base;
+  margin: 5px;
+  margin-bottom: 0;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/* ------ Modules Right ------ */
+.modules-right {
+  background-color: @base;
+  margin: 5px;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+/* ------ Cpu Usage, Temperature, and Memory ------ */
+#cpu, #temperature, #memory, #pulseaudio, #network, #custom-power, #tray {
+  background-color: @surface0;
+  border-radius: 5px;
+  padding: 2px 9px;
+  margin: 0;
+}
+
+#cpu { color: @peach; }
+#memory { color: @mauve; }
+#temperature { color: @maroon; }
+
+/* ------ Window Title ------ */
+#window { 
+    color: @text; 
+    padding-right: 4px;
 }
 
 window#waybar {
-  	background-color: rgba(0, 0, 0, 0);
-  	transition-property: background-color;
-  	transition-duration: .5s;
+    /* background-color: rgba(0, 0, 0, 0); */
+    /* border-bottom: 0px solid #ffffff; */
+    /* color: #FFFFFF; */
+    background: transparent;
+    transition-property: background-color;
+    transition-duration: .5s;
 }
 
-window#waybar.hidden {
-  	opacity: 0.5;
+/* -----------------------------------------------------
+ * Workspaces 
+ * ----------------------------------------------------- */
+
+#workspaces button.empty {
+    color: @surface2;
+    font-family: JetBrainsMono Nerd Font;
 }
 
-window#waybar.empty {
-	background-color: transparent;
-}
-
-window#waybar.empty #window {
-	padding: 0px;
-	border: 0px;
-	background-color: transparent;
-}
-
-tooltip {
-	opacity: 1;
-	border-radius: 10px;
-}
-
-tooltip label{
-	padding: 10px;
-	color: #ebdbb2;
-}
-
-#custom-cava,
-#clock,
-#cpu,
-#memory,
-#mpris,
-#network,
-#pulseaudio,
-#temperature,
-#workspaces,
-#custom-menu,
-#custom-swaync{
-	border-radius: 10px;
-  color: #ebdbb2;
-	padding-top: 3px;
-	padding-bottom: 3px;
-  padding-left: 6px;
-  padding-right: 6px;
-}
-
-#window{
-  color: #ebdbb2;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-right: 6px;
-  padding-left: 6px;
-  border-radius: 12px;
+#workspaces {
+    margin: 0px 1px 0px 1px;
+    padding: 0px 1px;
+    font-family: JetBrainsMono Nerd Font;
 }
 
 #workspaces button {
-	margin: 1px;
-  box-shadow: none;
-	text-shadow: none;
-  border-radius: 12px;
-  padding-left: 6px;
-  padding-right: 6px;
-  background-color: #ebdbb2;
-  color: #282828;
+    padding: 0px 2px;
+    margin: 4px 2px;
+    color: @yellow;
+    font-family: JetBrainsMono Nerd Font;
 }
 
-#temperature.critical {
-  background-color: red;
+#workspaces button:hover {
+    opacity:0.5;
+}
+
+/* ------ Pulseaudio ------ */
+#pulseaudio {
+  color: @peach;
+}
+
+/* ------ Backlight ------ */
+#backlight {
+  color: @sky;
+  background-color: @surface1;
+  padding: 2px 5px;
+  margin: 4px 2px;
+}
+
+/* ------ Network ------ */
+#network {
+  color: @mauve;
+}
+
+/* ------ Battery ------ */
+#battery {
+  color: @maroon;
+  background-color: @surface1;
+  padding: 2px 5px;
+  margin: 4px 2px;
+}
+
+/* ------ Clock ------ */
+#clock {
+  padding-left: 10px;
+  color: @text;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/* ------ System Tray ------ */
+#tray {
+  background-color: transparent;
+  padding: 2px 5px;
+  margin: 4px 2px;
+}
+
+/* ------ Custom Modules ------ */
+#custom-icon {
+  font-size: 18px;
+  color: @blue;
+  padding-right: 5px;
+}
+
+#custom-separator-arrow {
+  font-size: 14px;
+  color: @text;
+}
+
+#custom-separator-dot {
+  font-size: 15px;
+  color: @text;
+}
+
+#custom-spotify {
+  color: @mauve;
+  background-color: @surface1;
+  padding: 2px 9px;
+  margin: 4px 2px;
+}
+#custom-power {
+  color: @red;
+  padding: 2px 9px;
+  font-size: 15px;
+}
+
+#idle_inhibitor {
+  color: @green;
+  background-color: @surface1;
+  padding: 2px 9px;
+  margin: 4px 2px;
+  font-size: 15px;
+}
+
+#custom-updates {
+  padding: 2px 7px;
+  margin: 4px 2px;
+  background-color: @surface1;  
+}
+#custom-updates.green {
+  color: @text;
+}
+#custom-updates.yellow {
+  color: @peach;
+}
+#custom-updates.red {
+  color: @red;
+}
+
+#custom-notification {
+  color: @teal;
+  background-color: @surface1;
+  padding: 2px 9px;
+  margin: 4px 2px;
+  font-size: 15px;
+}
+
+tooltip {
+    background: @base;
+    border: 1px solid @blue;
 }
