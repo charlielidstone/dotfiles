@@ -46,7 +46,7 @@
 #cpu, #temperature, #memory, #pulseaudio, #network, #custom-power, #tray {
   background-color: @surface0;
   border-radius: 5px;
-  padding: 2px 9px;
+  padding: 0px 9px;
   margin: 0;
 }
 
@@ -117,7 +117,6 @@ window#waybar {
 #battery {
   color: @maroon;
   background-color: @surface1;
-  padding: 2px 5px;
   margin: 4px 2px;
 }
 
@@ -132,7 +131,6 @@ window#waybar {
 /* ------ System Tray ------ */
 #tray {
   background-color: transparent;
-  padding: 2px 5px;
   margin: 4px 2px;
 }
 
@@ -156,19 +154,16 @@ window#waybar {
 #custom-spotify {
   color: @mauve;
   background-color: @surface1;
-  padding: 2px 9px;
   margin: 4px 2px;
 }
 #custom-power {
   color: @red;
-  padding: 2px 9px;
   font-size: 15px;
 }
 
 #idle_inhibitor {
   color: @green;
   background-color: @surface1;
-  padding: 2px 9px;
   margin: 4px 2px;
   font-size: 15px;
 }
