@@ -199,7 +199,7 @@
       "inhibited-notification": "󱅫 ",
       "inhibited-none": "󰂚 ",
       "dnd-inhibited-notification": "󰵙 ",
-      "dnd-inhibited-none": "󰂛​ "
+      "dnd-inhibited-none": "󰂛"
     },
     "return-type": "json",
     "exec-if": "which swaync-client",

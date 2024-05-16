@@ -13,9 +13,14 @@ Wofi config by Charlie Lidstone
 
 @import "mocha.css";
 
+* {
+  border: none;
+  outline: none;
+}
+
 window {
     padding: 50px;
-    background-color: @mantle;
+    background-color: #181825;
     font-family: 'FiraCode Nerd Font', sans-serif;
     font-size: 15px;
 }
@@ -26,6 +31,7 @@ window {
     background-color: #11111b;
     border: none;
     color: #cdd6f4;
+    border-radius: 10px;
 }
 
 #input:focus {
@@ -41,8 +47,8 @@ window {
 }
 
 #entry:selected {
-    background-color: #a6e3a1;
-    border-radius: 5px;
+    background-color: #11111b;
+    border-radius: 10px;
 }
 
 #text {
@@ -50,5 +56,5 @@ window {
 }
 
 #text:selected {
-    color: #1e1e2e;
+    color: #cdd6f4;
 }
