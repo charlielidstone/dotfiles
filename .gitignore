@@ -1,6 +1,8 @@
 *
 !hypr
 !hypr/*
+!cava
+!cava/*
 !kitty
 !kitty/*
 !nvim
@@ -13,3 +15,5 @@
 !wofi/*
 !gtk-*
 !gtk-*/*
+!xfce4
+!xfce4/*
