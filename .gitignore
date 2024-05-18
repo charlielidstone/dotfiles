@@ -11,3 +11,5 @@
 !waybar/*
 !wofi
 !wofi/*
+!gtk-*
+!gtk-*/*
