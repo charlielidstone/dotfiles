@@ -17,3 +17,5 @@
 !gtk-*/*
 !xfce4
 !xfce4/*
+!blender
+!blender/** 

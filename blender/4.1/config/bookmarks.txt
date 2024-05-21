@@ -1,0 +1,5 @@
+[Bookmarks]
+[Recent]
+/home/charlielidstone/Documents/blender/
+/home/charlielidstone/blender-themes/themes/classic/mocha/
+/home/charlielidstone/Downloads/
