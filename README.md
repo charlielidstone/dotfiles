@@ -10,3 +10,6 @@ I'm new to Arch and Hyperland and still figuring things out.
 **Lock Screen:** Hyprlock\
 **Editor:** Neovim\
 **Fetch:** Nitch
+
+
+this is a test 
