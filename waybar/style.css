@@ -46,13 +46,36 @@
 #cpu, #temperature, #memory, #pulseaudio, #network, #custom-power, #tray {
   background-color: @surface0;
   border-radius: 5px;
-  padding: 0px 9px;
+  padding: 0px 12px;
   margin: 0;
+  border: 1px solid @surface1;
 }
 
-#cpu { color: @peach; }
-#memory { color: @mauve; }
-#temperature { color: @maroon; }
+#tray {
+  border: none;
+}
+
+#cpu { 
+  color: @yellow;
+  /* border: 1px solid @yellow; */
+}
+#network {
+  /* border: 1px solid @sapphire; */
+}
+#pulseaudio {
+  /* border: 1px solid @pink; */
+}
+#memory { 
+  color: @yellow;
+  /* border: 1px solid @yellow */
+}
+#temperature { 
+  color: @maroon;
+}
+#custom-power, #tray {
+  padding-left: 9px;
+  padding-right: 9px;
+}
 
 /* ------ Window Title ------ */
 #window { 
@@ -97,7 +120,7 @@ window#waybar {
 
 /* ------ Pulseaudio ------ */
 #pulseaudio {
-  color: @peach;
+  color: @pink;
 }
 
 /* ------ Backlight ------ */
@@ -110,7 +133,7 @@ window#waybar {
 
 /* ------ Network ------ */
 #network {
-  color: @mauve;
+  color: @sapphire;
 }
 
 /* ------ Battery ------ */
