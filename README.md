@@ -17,22 +17,22 @@ I'm new to Arch and Hyperland and still figuring things out.
 
 Waybar, Neovim, and other applications require a [Nerd Font](https://www.nerdfonts.com/font-downloads). Download a Nerd Font from the website, then place a single .ttf file into `~/.local/share/font` (which you might need to create). From there, simply set the font as the default terminal font in the terminal in which you use Neovim. Also, set the font as the default font in the waybar.conf file.
 
-**3. Install git**
+#### 3. Install git
 Start by installing git:\
 `sudo pacman -S git`
 
-**4. Clone repo**
+#### 4. Clone repo
 Then clone this repo into your home directory:\
 `git clone https://github.com/charlielidstone/dotfile.git`
 
-**5. Remove default configs**
+#### 5. Remove default configs
 Delete each of the following from `~/.config`:
 - kitty
 - hypr
 - nvim
 - waybar
 
-**6. Create links to repo directories**
+#### 6. Create links to repo directories
 Then, for each of the directories above, run the following command.
 
 `ln -s ~/dotfiles/DIRECTORY-NAME ~/.config/DIRECTORY-NAME`
