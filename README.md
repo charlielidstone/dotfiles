@@ -53,4 +53,7 @@ Then, for each of the directories above, run the following command.
 1. [Enable the multilib directory](https://wiki.archlinux.org/title/Official_repositories#Enabling_multilib)
 2. Install:\
    `sudo pacman -S steam`
-   
+
+## Wallpapers
+- [DragonDev07/Wallpapers](https://github.com/DragonDev07/Wallpapers)
+- [Gingeh/wallpapers](https://github.com/Gingeh/wallpapers)
