@@ -24,3 +24,8 @@ Delete each of the following from `~/.config`:
 Then, for each of the directories above, run the following command.
 
 `ln -s ~/dotfiles/DIRECTORY-NAME ~/.config/DIRECTORY-NAME`
+
+
+## Additional Packages and cool things
+### Nitch
+[Nitch](https://github.com/ssleert/nitch) is a simple system fetch script which can be installed with `wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh`.
