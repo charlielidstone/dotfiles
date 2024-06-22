@@ -39,13 +39,17 @@ Then, for each of the directories above, run the following command.
 
 
 ## Additional Packages and cool things
-### Nitch
-[Nitch](https://github.com/ssleert/nitch) is a simple system fetch script which can be installed with `wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh`.
 
-## Discord
+### [Nitch](https://github.com/ssleert/nitch)
+`wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh`
+
+### Bashtop
+`sudo pacman -S bashtop`
+
+### Discord
 `sudo pacman -S discord`
 
-## Steam
+### Steam
 1. [Enable the multilib directory](https://wiki.archlinux.org/title/Official_repositories#Enabling_multilib)
 2. Install:\
    `sudo pacman -S steam`
