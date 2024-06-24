@@ -9,7 +9,8 @@ I'm new to Arch and Hyperland and still figuring things out.
 **File Manager:** Nautilus\
 **Lock Screen:** Hyprlock\
 **Editor:** Neovim\
-**Fetch:** Nitch
+**Fetch:** Nitch\
+**Wallpapers:** swww
 
 ## Setup
 
