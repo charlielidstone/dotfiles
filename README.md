@@ -55,6 +55,11 @@ Then, for each of the directories above, run the following command.
 2. Install:\
    `sudo pacman -S steam`
 
+### swww - Wallpaper manager
+1. Install cargo:\ `sudo pacman -S cargo`
+2. Clone repo into home:\ `git clone https://github.com/LGFae/swww.git`
+3. Build:\ `cargo build --release`
+
 ## Wallpapers
 - [DragonDev07/Wallpapers](https://github.com/DragonDev07/Wallpapers)
 - [Gingeh/wallpapers](https://github.com/Gingeh/wallpapers)
