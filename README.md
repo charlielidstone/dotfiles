@@ -77,3 +77,6 @@ Then, for each of the directories above, run the following command.
 ## Wallpapers
 - [DragonDev07/Wallpapers](https://github.com/DragonDev07/Wallpapers)
 - [Gingeh/wallpapers](https://github.com/Gingeh/wallpapers)
+
+## Icons
+- [ljmill/catppuccin-icons](https://github.com/ljmill/catppuccin-icons)
