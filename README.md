@@ -15,8 +15,13 @@ I'm new to Arch and Hyperland and still figuring things out.
 ## Setup
 
 **0. Install important things**
-- `sudo pacman -S yay`
-- `sudo pacman -S cargo`
+#### Yay
+1. `git clone https://aur.archlinux.org/yay.git`
+2. `cd yay`
+3. `makepkg -si`
+
+####Cargo
+`sudo pacman -S cargo`
 
 **1. Install Nerd Font**
 
