@@ -64,8 +64,10 @@ Then, for each of the directories above, run the following command.
 
 ### swww - Wallpaper manager
 > If you did not install cargo earlier, do so now: `sudo pacman -S cargo`
-1. Clone repo into home:\ `git clone https://github.com/LGFae/swww.git`
-2. Build:\ `cargo build --release`
+1. Clone repo into home:\
+   `git clone https://github.com/LGFae/swww.git`
+3. Build:\
+   `cargo build --release`
 
 ## Wallpapers
 - [DragonDev07/Wallpapers](https://github.com/DragonDev07/Wallpapers)
