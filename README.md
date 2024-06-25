@@ -63,6 +63,7 @@ Then, for each of the directories above, run the following command.
    `sudo pacman -S steam`
 
 ### swww - Wallpaper manager
+> If you did not install cargo earlier, do so now: `sudo pacman -S cargo`
 1. Clone repo into home:\ `git clone https://github.com/LGFae/swww.git`
 2. Build:\ `cargo build --release`
 
