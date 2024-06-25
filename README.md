@@ -44,6 +44,9 @@ Then, for each of the directories above, run the following command.
 ### [Nitch](https://github.com/ssleert/nitch)
 `wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh`
 
+### [Waybar](https://github.com/Alexays/Waybar)
+`sudo pacman -S waybar`
+
 ### Bashtop
 `sudo pacman -S bashtop`
 
