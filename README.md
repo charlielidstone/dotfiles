@@ -14,6 +14,10 @@ I'm new to Arch and Hyperland and still figuring things out.
 
 ## Setup
 
+**0. Install important things**
+`sudo pacman -S yay`
+`sudo pacman -S cargo`
+
 **1. Install Nerd Font**
 
 Waybar, Neovim, and other applications require a [Nerd Font](https://www.nerdfonts.com/font-downloads). Download a Nerd Font from the website, then place a single .ttf file into `~/.local/share/font` (which you might need to create). From there, simply set the font as the default terminal font in the terminal in which you use Neovim. Also, set the font as the default font in the waybar.conf file.
@@ -59,9 +63,8 @@ Then, for each of the directories above, run the following command.
    `sudo pacman -S steam`
 
 ### swww - Wallpaper manager
-1. Install cargo:\ `sudo pacman -S cargo`
-2. Clone repo into home:\ `git clone https://github.com/LGFae/swww.git`
-3. Build:\ `cargo build --release`
+1. Clone repo into home:\ `git clone https://github.com/LGFae/swww.git`
+2. Build:\ `cargo build --release`
 
 ## Wallpapers
 - [DragonDev07/Wallpapers](https://github.com/DragonDev07/Wallpapers)
