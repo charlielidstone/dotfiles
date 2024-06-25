@@ -15,8 +15,8 @@ I'm new to Arch and Hyperland and still figuring things out.
 ## Setup
 
 **0. Install important things**
-`sudo pacman -S yay`
-`sudo pacman -S cargo`
+- `sudo pacman -S yay`
+- `sudo pacman -S cargo`
 
 **1. Install Nerd Font**
 
