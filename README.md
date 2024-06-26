@@ -47,6 +47,10 @@ Then, for each of the directories above, run the following command.
 
 `ln -s ~/dotfiles/DIRECTORY-NAME ~/.config/DIRECTORY-NAME`
 
+For `~/dotfiles/.local`, do the following for each of the directories:
+
+`ln -s ~/dotfiles/.local/DIRECTORY-NAME ~/.local/`
+
 
 ## Additional Packages and cool things
 
