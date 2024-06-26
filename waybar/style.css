@@ -3,7 +3,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Overpass", "JetBrains Mono Nerd Font";
+  font-family: "JetBrains Mono Nerd Font";
   font-size: 12px;
 }
 
@@ -30,8 +30,7 @@
   background-color: @base;
   margin: 5px;
   margin-bottom: 0;
-  padding-right: 5px;
-  padding-left: 5px;
+  padding: 5px;
 }
 
 /* ------ Modules Right ------ */
@@ -81,6 +80,7 @@
 #window { 
     color: @text; 
     padding-right: 4px;
+    font-weight: bold;
 }
 
 window#waybar {
@@ -98,20 +98,17 @@ window#waybar {
 
 #workspaces button.empty {
     color: @surface2;
-    font-family: JetBrainsMono Nerd Font;
 }
 
 #workspaces {
     margin: 0px 1px 0px 1px;
     padding: 0px 1px;
-    font-family: JetBrainsMono Nerd Font;
 }
 
 #workspaces button {
     padding: 0px 2px;
     margin: 4px 2px;
     color: @yellow;
-    font-family: JetBrainsMono Nerd Font;
 }
 
 #workspaces button:hover {
@@ -164,21 +161,31 @@ window#waybar {
   padding-right: 5px;
 }
 
+#custom-hello-world {
+  color: @text;
+  padding-left: 10px;
+  font-family: "Overpass";
+  font-weight: bold;
+}
+
 #custom-separator-arrow {
   font-size: 14px;
   color: @text;
 }
 
-#custom-separator-dot {
+#custom-separator-dot, #custom-separator-star {
   font-size: 15px;
   color: @text;
 }
 
 #custom-spotify {
   color: @mauve;
-  background-color: @surface1;
-  margin: 4px 2px;
+  /* background-color: @surface0; */
+  padding: 0 5px;
+  border-radius: 5px;
+  /* border: 1px solid @surface1; */
 }
+
 #custom-power {
   color: @red;
   font-size: 15px;
