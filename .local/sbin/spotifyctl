@@ -1,0 +1,49 @@
+#!/bin/bash
+
+status=$(playerctl -p spotify status)
+shuffleStatus=$(playerctl -p spotify shuffle)
+title=$(playerctl -p spotify metadata xesam:title)
+artist=$(playerctl -p spotify metadata xesam:artist)
+
+if echo "$title" | grep -q '&'; then
+  title=$(echo "$title" | sed 's/&/\&amp;/g')
+fi
+
+if echo "$artist" | grep -q '&'; then
+  artist=$(echo "$artist" | sed 's/&/\$amp/g')
+fi
+
+if [[ -z $status ]] 
+then
+  echo "{\"class\": \"stopped\", \"text\": \"  Nothing is playing right now\"}"
+  pkill -RTMIN+30 waybar
+  exit
+fi
+
+if [[ $status == "Playing" ]]
+then
+  if [[ $shuffleStatus == "On" ]]
+  then
+    echo "{\"class\": \"playing\", \"text\": \"      $title - $artist \"}"
+    pkill -RTMIN+30 waybar
+    exit
+  else
+    echo "{\"class\": \"playing\", \"text\": \"   $title - $artist \"}"
+    pkill -RTMIN+30 waybar
+    exit
+  fi
+fi
+
+if [[ $status == "Paused" ]]
+then
+  if [[ $shuffleStatus == "On" ]]
+  then
+    echo "{\"class\": \"paused\", \"text\": \"      $title - $artist \"}"
+    pkill -RTMIN+30 waybar
+    exit
+  else
+   echo "{\"class\": \"paused\", \"text\": \"   $title - $artist \"}"
+   pkill -RTMIN+30 waybar
+   exit
+  fi
+fi
