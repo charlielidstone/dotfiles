@@ -33,7 +33,7 @@
 
   "custom/separator-star": {
     "format": " 󰫢 ",
-    "tooltip": "false"
+    "tooltip": false
   },
 
   "cpu": {
@@ -45,17 +45,9 @@
   
   "clock": {
 		"format": "<b>{:%H:%M}</b> ",
-		"tooltip-format": "<tt>{calendar}</tt>",
-        "calendar": {
-                    "mode"          : "month",
-                    "format": {
-                              "months":     "<span color='#cdd6f4'><b>{}</b></span>",
-                              "days":       "<span color='#cdd6f4'><b>{}</b></span>",
-                              "weeks":      "<span color='#cdd6f4'><b>W{}</b></span>",
-                              "weekdays":   "<span color='#cdd6f4'><b>{}</b></span>",
-                              "today":      "<span color='#f38ba8'><b>{}</b></span>"
-                              }
-                    },
+    "format-alt": "<b> {:%a, %b %d  %H:%M}</b> ",
+    "tooltip": false,
+    "tooltip-format": "{:%a, %b %d}",
     },
 
   "memory": {
