@@ -93,6 +93,12 @@ sudo pacman -S discord
    sudo pacman -S steam
    ```
 
+### Hyprlock
+
+```
+sudo pacman -S hyprlock
+```
+
 ### swww - Wallpaper manager
 > If you did not install cargo earlier, do so now: ```sudo pacman -S cargo```
 1. Clone repo into home:\
