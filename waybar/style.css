@@ -64,6 +64,11 @@
 #pulseaudio {
   /* border: 1px solid @pink; */
 }
+
+#cava.left, #cava.right {
+  margin: 0 5px;
+}
+
 #memory { 
   color: @yellow;
   /* border: 1px solid @yellow */
