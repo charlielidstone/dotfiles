@@ -1,0 +1,13 @@
+#!/bin/bash
+
+wallpapers_directory="/home/charlielidstone/.config/wallpapers/catppuccin/"
+current_wallpaper_filepath=$(swww query | grep -oP '(?<=image: ).*')
+all_wallpaper_filepaths=($(ls -1 "$wallpapers_directory"))
+
+number_of_wallpapers=${#all_wallpaper_filepaths[@]}
+randomIndex=$(( RANDOM % number_of_wallpapers ))
+random_wallpaper_filepath="${wallpapers_directory}${all_wallpaper_filepaths[$randomIndex]}"
+
+swww img "$random_wallpaper_filepath"
+echo "Wallpaper changed to $(basename $random_wallpaper_filepath)"
+notify-send "Wallpaper changed to $(basename $random_wallpaper_filepath)"
