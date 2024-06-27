@@ -1,13 +1,18 @@
 #!/bin/bash
 
-wallpapers_directory="/home/charlielidstone/.config/wallpapers/catppuccin/"
+wallpapers_directory="/home/charlielidstone/.config/wallpapers/favorites/"
 current_wallpaper_filepath=$(swww query | grep -oP '(?<=image: ).*')
 all_wallpaper_filepaths=($(ls -1 "$wallpapers_directory"))
 
 number_of_wallpapers=${#all_wallpaper_filepaths[@]}
 randomIndex=$(( RANDOM % number_of_wallpapers ))
+
+while [ "${wallpapers_directory}${all_wallpaper_filepaths[$randomIndex]}" == "$current_wallpaper_filepath" ]; do
+    randomIndex=$(( RANDOM % number_of_wallpapers ))
+done
+
 random_wallpaper_filepath="${wallpapers_directory}${all_wallpaper_filepaths[$randomIndex]}"
 
-swww img "$random_wallpaper_filepath"
+swww img "$random_wallpaper_filepath" --transition-step 15 --transition-type center
 echo "Wallpaper changed to $(basename $random_wallpaper_filepath)"
 notify-send "Wallpaper changed to $(basename $random_wallpaper_filepath)"
