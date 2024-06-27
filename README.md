@@ -33,11 +33,15 @@ Waybar, Neovim, and other applications require a [Nerd Font](https://www.nerdfon
 
 #### 3. Install git
 Start by installing git:\
-```sudo pacman -S git```
+```
+sudo pacman -S git
+```
 
 #### 4. Clone repo
 Then clone this repo into your home directory:\
-```git clone https://github.com/charlielidstone/dotfile.git```
+```
+git clone https://github.com/charlielidstone/dotfile.git
+```
 
 #### 5. Remove default configs
 Delete each of the following from ```~/.config```:
@@ -49,38 +53,56 @@ Delete each of the following from ```~/.config```:
 #### 6. Create links to repo directories
 Then, for each of the directories above, run the following command.
 
-```ln -s ~/dotfiles/DIRECTORY-NAME ~/.config/DIRECTORY-NAME```
+```
+ln -s ~/dotfiles/DIRECTORY-NAME ~/.config/DIRECTORY-NAME
+```
 
 For ```~/dotfiles/.local```, do the following for each of the directories:
 
-```ln -s ~/dotfiles/.local/DIRECTORY-NAME ~/.local/```
+```
+ln -s ~/dotfiles/.local/DIRECTORY-NAME ~/.local/
+```
 
 
 ## Additional Packages and cool things
 
 ### [Nitch](https://github.com/ssleert/nitch)
-```wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh```
+```
+wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh
+```
 
 ### [Waybar](https://github.com/Alexays/Waybar)
-```sudo pacman -S waybar```
+```
+sudo pacman -S waybar
+```
 
 ### Bashtop
-```sudo pacman -S bashtop```
+```
+sudo pacman -S bashtop
+```
 
 ### Discord
-```sudo pacman -S discord```
+```
+sudo pacman -S discord
+```
 
 ### Steam
 1. [Enable the multilib directory](https://wiki.archlinux.org/title/Official_repositories#Enabling_multilib)
 2. Install:\
-   ```sudo pacman -S steam```
+   ```
+   sudo pacman -S steam
+   ```
 
 ### swww - Wallpaper manager
 > If you did not install cargo earlier, do so now: ```sudo pacman -S cargo```
 1. Clone repo into home:\
-   ```git clone https://github.com/LGFae/swww.git```
+   ```
+   git clone https://github.com/LGFae/swww.git
+   ```
 3. Build:\
-   ```cargo build --release```
+   ```
+   cargo build --release
+   ```
 
 ## Wallpapers
 - [DragonDev07/Wallpapers](https://github.com/DragonDev07/Wallpapers)
