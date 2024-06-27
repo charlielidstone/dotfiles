@@ -32,7 +32,7 @@
 ; bar_width = 20
 ; bar_spacing = 5
 
-# sdl_glsl have these default values, they are only used to calulate max number of bars.
+# sdl_glsl have these default values, they are only used to calculate max number of bars.
 ; bar_width = 1
 ; bar_spacing = 0
 
@@ -79,8 +79,8 @@
 # For jack 'source' will be the name of the JACK server to connect to, e.g. 'foobar'. Default: 'default'.
 # README.md contains further information on how to setup CAVA for JACK.
 #
-; method = pulse
-; source = auto
+method = pulse
+source = auto
 
 ; method = pipewire
 ; source = auto
@@ -228,7 +228,6 @@
 # background must also be defined in hex or remain commented out. 1 = on, 0 = off.
 # You can define as many as 8 different colors. They range from bottom to top of screen
 ; gradient = 0
-; gradient_count = 8
 ; gradient_color_1 = '#59cc33'
 ; gradient_color_2 = '#80cc33'
 ; gradient_color_3 = '#a6cc33'
