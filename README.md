@@ -86,6 +86,9 @@ sudo pacman -S bashtop
 sudo pacman -S discord
 ```
 
+### Cava
+TODO: add this stuff
+
 ### Steam
 1. [Enable the multilib directory](https://wiki.archlinux.org/title/Official_repositories#Enabling_multilib)
 2. Install:\
