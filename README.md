@@ -16,9 +16,11 @@ I'm new to Arch and Hyperland and still figuring things out.
 
 **0. Install important things**
 ##### Yay
-1. `git clone https://aur.archlinux.org/yay.git`
-2. `cd yay`
-3. `makepkg -si`
+```
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
 
 ##### Cargo
 `sudo pacman -S cargo`
