@@ -23,7 +23,9 @@ makepkg -si
 ```
 
 ##### Cargo
-```sudo pacman -S cargo```
+```
+sudo pacman -S cargo
+```
 
 **1. Install Nerd Font**
 
