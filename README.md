@@ -70,6 +70,9 @@ wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh
 ```
 
 ### [Waybar](https://github.com/Alexays/Waybar)
+
+Waybar can be installed with pacman, but to enable the cava module we have to build from source.
+
 ```bash
 git clone https://github.com/Alexays/Waybar
 cd Waybar
