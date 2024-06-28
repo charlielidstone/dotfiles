@@ -70,7 +70,7 @@ wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh
 ```
 
 ### [Waybar](https://github.com/Alexays/Waybar)
-```
+```bash
 git clone https://github.com/Alexays/Waybar
 cd Waybar
 meson build
