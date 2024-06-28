@@ -13,6 +13,6 @@ done
 
 random_wallpaper_filepath="${wallpapers_directory}${all_wallpaper_filepaths[$randomIndex]}"
 
-swww img "$random_wallpaper_filepath" --transition-step 15 --transition-type center
+/home/charlielidstone/swww/target/release/swww img "$random_wallpaper_filepath" --transition-step 15 --transition-type center
 echo "Wallpaper changed to $(basename $random_wallpaper_filepath)"
 notify-send "Wallpaper changed to $(basename $random_wallpaper_filepath)"
