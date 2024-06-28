@@ -71,7 +71,15 @@ wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh
 
 ### [Waybar](https://github.com/Alexays/Waybar)
 ```
-sudo pacman -S waybar
+git clone https://github.com/Alexays/Waybar
+cd Waybar
+meson build
+ninja -C build
+# try running it:
+./build/waybar
+# install it (with cava module enabled):
+ninja -C build -Dcava=enabled install
+waybar
 ```
 
 ### Bashtop
