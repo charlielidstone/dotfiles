@@ -229,25 +229,10 @@
     "tooltip": false,
   },
 
-  "custom/spotifyold": {
-        "format": "{} ",
-        "max-length": 60,
-        "interval": "once",
-        "return-type": "json",
-        "exec": "~/.local/sbin/spotifyctl",
-        "on-click": "playerctl --player=spotify play-pause && pkill -RTMIN+30 waybar",
-        "on-click-right": "playerctl --player=spotify loop track",
-        "on-scroll-down": "playerctl --player=spotify previous && pkill -RTMIN+30 waybar",
-        "on-scroll-up": "playerctl --player=spotify next && pkill -RTMIN+30 waybar",
-        "on-click-middle": "pkill --signal TERM spotify",
-        "signal": 30,
-        "smooth-scrolling-threshold": 1.0,
-  },
-  
   "custom/spotify": {
       "format": "{}",
       "return-type": "json",
-      "exec": "~/.local/sbin/spotifyctl", 
+      "exec": "~/.local/bin/spotifyctl", 
       "signal": 30,
       "interval": "once",
       "on-click": "playerctl -p spotify play-pause",

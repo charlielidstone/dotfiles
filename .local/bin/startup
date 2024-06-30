@@ -1,0 +1,12 @@
+#!/bin/bash
+
+/home/charlielidstone/Waybar/build/waybar &
+/home/charlielidstone/swww/target/release/swww-daemon &
+# /home/charlielidstone/.local/bin/random_wallpaper &
+/home/charlielidstone/swww/target/release/swww img /home/charlielidstone/.config/wallpapers/favorites/floral.png --transition-step 15 --transition-type center
+hyprctl dispatch togglespecialworkspace music
+spotify-launcher && hyprctl dispatch movetoworkspace special:music &
+sleep 1
+hyprctl dispatch togglespecialworkspace music
+/home/charlielidstone/.local/bin/spotifyctl
+
