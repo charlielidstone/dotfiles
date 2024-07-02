@@ -95,6 +95,11 @@ sudo pacman -S bashtop
 sudo pacman -S discord
 ```
 
+### VS Code
+```
+sudo pacman -S code
+```
+
 ### Cava
 TODO: add this stuff
 
