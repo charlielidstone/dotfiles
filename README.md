@@ -95,6 +95,10 @@ sudo pacman -S bashtop
 sudo pacman -S discord
 ```
 
+### Bluetooth
+Bluez
+Bluez-utils
+
 ### VS Code
 ```
 sudo pacman -S code
