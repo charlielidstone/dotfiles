@@ -95,6 +95,23 @@ sudo pacman -S bashtop
 sudo pacman -S discord
 ```
 
+### Slurp & Grim for screenshots
+Install slurp:
+```
+git clone https://github.com/emersion/slurp
+cd slurp
+meson setup build
+ninja -C build install
+```
+Install grim
+```
+git clone https://github.com/emersion/grim.git
+cd grim
+meson build
+ninja -C build install
+```
+Then, ensure the filepath in ~/.config/hypr/bindings.conf is correct.
+
 ### Bluetooth
 Bluez
 Bluez-utils
