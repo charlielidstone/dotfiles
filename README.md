@@ -110,7 +110,7 @@ cd grim
 meson build
 ninja -C build install
 ```
-Then, ensure the filepath in ~/.config/hypr/bindings.conf is correct.
+Then, ensure the filepath in `~/.config/hypr/bindings.conf` is correct.
 
 ### Bluetooth
 Bluez
