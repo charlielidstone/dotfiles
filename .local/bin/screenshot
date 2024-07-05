@@ -1,0 +1,8 @@
+#!/bin/bash
+
+"/home/charlielidstone/Pictures/screenshots/$(date +'%s_grim.png')"
+
+grim -g "$(slurp -d)" "/home/charlielidstone/Pictures/screenshots/$(date +'%s_grim.png')"
+
+echo "Screenshot saved."
+notify-send "Screenshot saved."

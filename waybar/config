@@ -29,7 +29,7 @@
   
   "custom/icon": {
     "format": "󰣇",
-    "on-click": "~/.config/rofi/bin/launcher",
+    "on-click": "wofi",
     "tooltip": false 
   },
 
@@ -132,7 +132,7 @@
   "hyprland/window": {
     "format": "  {}",
     "rewrite": {
-      "(.*) nvim": "  NeoVim",
+      "(.*) nvim (.*)": "  NeoVim",
       "(.*) — Mozilla Firefox": "󰈹  Firefox",
       "  ": "󰇄  Desktop",
       "(.*) Spotify Free": "󰓇  Spotify",
