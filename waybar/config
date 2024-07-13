@@ -142,6 +142,8 @@
       "(.*) Discord Updater": "  Discord Updater",
       "(.*) - Blender": "󰂫  Blender",
       "(.*) Steam": "  Steam",
+      "(.*) GitHub Desktop": "  GitHub Desktop",
+      "(.*) Code (.*)": "󰨞  Visual Studio Code"
     }
   },
 
