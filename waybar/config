@@ -29,7 +29,7 @@
   
   "custom/icon": {
     "format": "󰣇",
-    "on-click": "wofi",
+    "on-click": "hyprctl dispatch exit",
     "tooltip": false 
   },
 

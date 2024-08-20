@@ -1,19 +1,24 @@
+local map = vim.keymap.set
+
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-vim.keymap.set("n", "<C-a>", function() vim.cmd(':normal! ggVG') end)
+map("n", "<C-a>", function() vim.cmd(':normal! ggVG') end)
 
-vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
-vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+map("v", "J", ":m '>+1<CR>gv=gv")
+map("v", "K", ":m '<-2<CR>gv=gv")
 
-vim.keymap.set("n", "<C-d>", "<C-d>zz")
-vim.keymap.set("n", "<C-u>", "<C-u>zz")
+map("n", "<C-d>", "<C-d>zz")
+map("n", "<C-u>", "<C-u>zz")
 
-vim.keymap.set("x", "<leader>p", "\"_dp")
+map("x", "<leader>p", "\"_dp")
 
-vim.keymap.set("n", "Q", "<nop>")
+map("n", "Q", "<nop>")
 
-vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
+map("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
-vim.keymap.set("n", "<leader><leader>", function()
-    vim.cmd("so")
+map("n", "<leader><leader>", function()
+		vim.cmd("so")
 end)
+
+map("n", "<leader>pv", function() vim.cmd(':NvimTreeToggle') end)
+map("n", "<C-n>", function() vim.cmd(':NvimTreeFindFile') end)
+
