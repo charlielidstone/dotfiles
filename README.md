@@ -129,7 +129,15 @@ sudo pacman -S code
 ```
 
 ### Cava
-TODO: add this stuff
+
+Cava is a console-based audio visualizer. It's already configured in the Waybar config, so you only need to install it.
+
+Install cava:
+```
+sudo pacman -S cava
+```
+
+Note: Waybar must be built with the cava module enabled (see the Waybar section above) for the audio visualization to appear in the status bar.
 
 ### Steam
 1. [Enable the multilib directory](https://wiki.archlinux.org/title/Official_repositories#Enabling_multilib)
