@@ -12,7 +12,7 @@
 
 ## Setup
 
-**0. Install important things**
+**1. Install important things**
 ##### Yay
 ```
 git clone https://aur.archlinux.org/yay.git
@@ -32,7 +32,7 @@ sudo pacman -S github-cli
 gh auth login
 ```
 
-**1. Install Nerd Font**
+**2. Install Nerd Font**
 
 Waybar, Neovim, and other applications require a [Nerd Font](https://www.nerdfonts.com/font-downloads). Download a Nerd Font from the website, then place a single .ttf file into ```~/.local/share/font``` (which you might need to create). From there, simply set the font as the default terminal font in the terminal in which you use Neovim. Also, set the font as the default font in the waybar.conf file.
 
