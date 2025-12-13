@@ -130,16 +130,11 @@ sudo pacman -S code
 
 ### Cava
 
-Cava is a console-based audio visualizer. It's used in the Waybar configuration to display audio visualization.
+Cava is a console-based audio visualizer. It's already configured in the Waybar config, so you only need to install it.
 
 Install cava:
 ```
 sudo pacman -S cava
-```
-
-Then, create a symbolic link to the cava config:
-```
-ln -s ~/dotfiles/cava ~/.config/cava
 ```
 
 Note: Waybar must be built with the cava module enabled (see the Waybar section above) for the audio visualization to appear in the status bar.
