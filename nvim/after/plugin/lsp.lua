@@ -8,7 +8,7 @@ end)
 require('mason').setup({})
 require('mason-lspconfig').setup({
 	ensure_installed = {
-		"tsserver",
+		"ts_ls",
 	},
 	handlers = {
 		function(server_name)
